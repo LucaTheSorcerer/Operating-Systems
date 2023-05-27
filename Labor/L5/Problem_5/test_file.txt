@@ -1,0 +1,4 @@
+This is a test file.
+It contains some words.
+The first word is apple.
+The second word is banana.

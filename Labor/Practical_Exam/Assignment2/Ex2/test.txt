@@ -1,0 +1,4 @@
+This is a test file.
+It contains some text.
+This line contains the word "test".
+This line does not contain the word "test".

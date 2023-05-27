@@ -1,0 +1,3 @@
+/Users/lulu/UBB/Semestrul_II/Operating-Systems/Labor/L5/Problem_1/cmake-build-debug/CMakeFiles/Problem_1.dir
+/Users/lulu/UBB/Semestrul_II/Operating-Systems/Labor/L5/Problem_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lulu/UBB/Semestrul_II/Operating-Systems/Labor/L5/Problem_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

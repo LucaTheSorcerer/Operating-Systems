@@ -1,0 +1,41 @@
+//int process1(int* pipe2, int* pipe3, int* pipe4) {
+//    char buffer[1000];
+//    int counter = 0;
+//
+//    while(1) {
+//        //Read a text from the standard input
+//        int readBytes = read(STDIN_FILENO, buffer, 10);
+//        if(readBytes == 0) {
+//            //End of file reached
+//            break;
+//        }
+//
+//        buffer[readBytes] = '\0';
+//
+//        //Write each 10 bytes in every pipe(2,3,4)
+//        write(pipe2[PIPE_WRITE], buffer, readBytes);
+//        write(pipe3[PIPE_WRITE], buffer, readBytes);
+//        write(pipe4[PIPE_WRITE], buffer, readBytes);
+//
+//        counter += readBytes;
+//
+//        //Reset the counter after every 30 bytes
+//        if(counter >= 30) {
+//            //Reset the counter
+//            counter = 0;
+//
+//            //Wait for the child processes to finish
+//            wait(NULL);
+//            wait(NULL);
+//            wait(NULL);
+//        }
+//    }
+//
+//    //Close the write parts of the pipes
+//    close(pipe2[PIPE_WRITE]);
+//    close(pipe3[PIPE_WRITE]);
+//    close(pipe4[PIPE_WRITE]);
+//
+//    //End the process
+//    exit(0);
+//}
