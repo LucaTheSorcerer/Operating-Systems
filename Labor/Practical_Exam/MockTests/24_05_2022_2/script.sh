@@ -22,4 +22,5 @@ file=$1
 
 #Print the lines that contain words with 5 to 7 vowels. The words can contain numbers and special characters
 
-grep -E '\b\w*[aeiouAEIOU]\w*(\w*[aeiouAEIOU]\w*){4,6}\b' $file
+# grep -E '\b\w*[aeiouAEIOU]\w*(\w*[aeiouAEIOU]\w*){4,6}\b' $file
+grep -E '\b[[:alnum:][:punct:]]*[aeiouAEIOU][[:alnum:][:punct:]]*[aeiouAEIOU][[:alnum:][:punct:]]*[aeiouAEIOU][[:alnum:][:punct:]]*[aeiouAEIOU][[:alnum:][:punct:]]*[aeiouAEIOU][[:alnum:][:punct:]]*[aeiouAEIOU][[:alnum:][:punct:]]*\b' $1
