@@ -1,0 +1,4 @@
+Hallo, wie geht es Ihnen?
+Mir geht es gut.
+Und Ihnen?
+Mir geht es auch gut, danke.
